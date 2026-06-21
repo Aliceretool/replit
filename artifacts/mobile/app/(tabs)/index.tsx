@@ -158,7 +158,7 @@ export default function HomeScreen() {
       <ScrollView style={s.scroll} contentContainerStyle={s.scrollContent} showsVerticalScrollIndicator={false}>
         <View style={s.hero}>
           <Text style={s.appName}>
-            Meet<Text style={s.appNameAccent}>Midway</Text>
+            Meeting <Text style={s.appNameAccent}>Miday</Text>
           </Text>
           <Text style={s.tagline}>Find the fairest meeting spot for everyone in your group.</Text>
         </View>

@@ -16,7 +16,7 @@ import { RestaurantCard } from "@/components/RestaurantCard";
 import { MeetingMap } from "@/components/MeetingMap";
 import { type ScoredRestaurant, useApp } from "@/context/AppContext";
 import { type Place, findRestaurantsNear } from "@/services/places";
-import { getGeographicMidpoint, rankPlaces } from "@/services/routing";
+import { getGeographicMidpoint, getRealTravelTimes, rankPlaces } from "@/services/routing";
 import { useColors } from "@/hooks/useColors";
 
 type Status = "loading" | "done" | "error" | "no_results";
@@ -62,10 +62,14 @@ export default function ResultsScreen() {
         return;
       }
 
+      setStatusMsg("Getting real driving times…");
+      const top30 = places.slice(0, 30);
+      const travelTimes = await getRealTravelTimes(people, top30);
+
       setStatusMsg("Ranking by fairness…");
-      const ranked = rankPlaces(places, people);
+      const ranked = rankPlaces(top30, people, travelTimes);
       const scored: ScoredRestaurant[] = ranked.slice(0, 15).map((s) => ({
-        ...places.find((p) => p.id === s.placeId)!,
+        ...top30.find((p) => p.id === s.placeId)!,
         scored: s,
       }));
 

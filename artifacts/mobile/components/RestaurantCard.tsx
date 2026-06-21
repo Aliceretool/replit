@@ -71,7 +71,7 @@ export function RestaurantCard({ place, scored, rank, isSaved, onToggleSave }: P
       color: colors.primaryForeground,
       fontSize: 12,
       fontWeight: "700" as const,
-      fontFamily: "Inter_700Bold",
+      fontFamily: "SpaceGrotesk_700Bold",
       letterSpacing: 0.5,
     },
     body: {
@@ -87,7 +87,7 @@ export function RestaurantCard({ place, scored, rank, isSaved, onToggleSave }: P
       flex: 1,
       fontSize: 17,
       fontWeight: "700" as const,
-      fontFamily: "Inter_700Bold",
+      fontFamily: "SpaceGrotesk_700Bold",
       color: colors.foreground,
       lineHeight: 22,
     },
@@ -109,7 +109,7 @@ export function RestaurantCard({ place, scored, rank, isSaved, onToggleSave }: P
     tagText: {
       fontSize: 12,
       color: colors.mutedForeground,
-      fontFamily: "Inter_500Medium",
+      fontFamily: "SpaceGrotesk_500Medium",
       textTransform: "capitalize",
     },
     fairnessTag: {
@@ -131,7 +131,7 @@ export function RestaurantCard({ place, scored, rank, isSaved, onToggleSave }: P
       letterSpacing: 0.8,
       textTransform: "uppercase",
       color: colors.mutedForeground,
-      fontFamily: "Inter_600SemiBold",
+      fontFamily: "SpaceGrotesk_600SemiBold",
     },
     personRows: {
       gap: 4,
@@ -144,7 +144,7 @@ export function RestaurantCard({ place, scored, rank, isSaved, onToggleSave }: P
     personName: {
       fontSize: 14,
       color: colors.foreground,
-      fontFamily: "Inter_500Medium",
+      fontFamily: "SpaceGrotesk_500Medium",
       flex: 1,
     },
     timeBar: {
@@ -166,7 +166,7 @@ export function RestaurantCard({ place, scored, rank, isSaved, onToggleSave }: P
     },
     timeText: {
       fontSize: 13,
-      fontFamily: "Inter_600SemiBold",
+      fontFamily: "SpaceGrotesk_600SemiBold",
       color: colors.foreground,
       width: 36,
       textAlign: "right",
@@ -187,7 +187,7 @@ export function RestaurantCard({ place, scored, rank, isSaved, onToggleSave }: P
     },
     actionBtnText: {
       fontSize: 13,
-      fontFamily: "Inter_600SemiBold",
+      fontFamily: "SpaceGrotesk_600SemiBold",
       color: colors.foreground,
     },
     saveBtn: {

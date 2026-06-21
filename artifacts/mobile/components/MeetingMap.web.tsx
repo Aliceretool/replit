@@ -50,8 +50,8 @@ const styles = StyleSheet.create({
     gap: 6,
     borderBottomWidth: 1,
   },
-  text: { fontSize: 14, fontFamily: "Inter_600SemiBold" },
-  sub: { fontSize: 12, fontFamily: "Inter_400Regular" },
+  text: { fontSize: 14, fontFamily: "SpaceGrotesk_600SemiBold" },
+  sub: { fontSize: 12, fontFamily: "SpaceGrotesk_400Regular" },
   link: { flexDirection: "row", alignItems: "center", gap: 5, marginTop: 4 },
-  linkText: { fontSize: 13, fontFamily: "Inter_500Medium" },
+  linkText: { fontSize: 13, fontFamily: "SpaceGrotesk_500Medium" },
 });

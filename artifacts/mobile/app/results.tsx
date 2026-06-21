@@ -135,12 +135,12 @@ export default function ResultsScreen() {
     },
     headerTitleText: {
       fontSize: 14,
-      fontFamily: "Inter_600SemiBold",
+      fontFamily: "SpaceGrotesk_600SemiBold",
       color: colors.foreground,
     },
     headerSubText: {
       fontSize: 12,
-      fontFamily: "Inter_400Regular",
+      fontFamily: "SpaceGrotesk_400Regular",
       color: colors.mutedForeground,
     },
     map: {
@@ -155,7 +155,7 @@ export default function ResultsScreen() {
     },
     loadingText: {
       fontSize: 16,
-      fontFamily: "Inter_500Medium",
+      fontFamily: "SpaceGrotesk_500Medium",
       color: colors.mutedForeground,
       textAlign: "center",
       paddingHorizontal: 40,
@@ -170,13 +170,13 @@ export default function ResultsScreen() {
     },
     errorTitle: {
       fontSize: 18,
-      fontFamily: "Inter_700Bold",
+      fontFamily: "SpaceGrotesk_700Bold",
       color: colors.foreground,
       textAlign: "center",
     },
     errorText: {
       fontSize: 15,
-      fontFamily: "Inter_400Regular",
+      fontFamily: "SpaceGrotesk_400Regular",
       color: colors.mutedForeground,
       textAlign: "center",
     },
@@ -188,7 +188,7 @@ export default function ResultsScreen() {
     },
     retryBtnText: {
       fontSize: 15,
-      fontFamily: "Inter_700Bold",
+      fontFamily: "SpaceGrotesk_700Bold",
       color: colors.primaryForeground,
     },
     listHeader: {
@@ -199,12 +199,12 @@ export default function ResultsScreen() {
     },
     listHeaderTitle: {
       fontSize: 20,
-      fontFamily: "Inter_700Bold",
+      fontFamily: "SpaceGrotesk_700Bold",
       color: colors.foreground,
     },
     listHeaderSub: {
       fontSize: 14,
-      fontFamily: "Inter_400Regular",
+      fontFamily: "SpaceGrotesk_400Regular",
       color: colors.mutedForeground,
     },
     cardWrapper: {

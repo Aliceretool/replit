@@ -96,12 +96,12 @@ export default function SetupScreen() {
     title: {
       fontSize: 20,
       fontWeight: "700" as const,
-      fontFamily: "Inter_700Bold",
+      fontFamily: "SpaceGrotesk_700Bold",
       color: colors.foreground,
     },
     subtitle: {
       fontSize: 13,
-      fontFamily: "Inter_400Regular",
+      fontFamily: "SpaceGrotesk_400Regular",
       color: colors.mutedForeground,
     },
     scroll: { flex: 1 },
@@ -124,7 +124,7 @@ export default function SetupScreen() {
     },
     addPersonText: {
       fontSize: 15,
-      fontFamily: "Inter_600SemiBold",
+      fontFamily: "SpaceGrotesk_600SemiBold",
       color: colors.primary,
     },
     footer: {
@@ -154,7 +154,7 @@ export default function SetupScreen() {
     findBtnText: {
       fontSize: 17,
       fontWeight: "700" as const,
-      fontFamily: "Inter_700Bold",
+      fontFamily: "SpaceGrotesk_700Bold",
       color: colors.primaryForeground,
     },
   });

@@ -46,7 +46,7 @@ export default function HomeScreen() {
     appName: {
       fontSize: 38,
       fontWeight: "800" as const,
-      fontFamily: "Inter_700Bold",
+      fontFamily: "SpaceGrotesk_700Bold",
       color: colors.foreground,
       letterSpacing: -1,
     },
@@ -55,7 +55,7 @@ export default function HomeScreen() {
     },
     tagline: {
       fontSize: 17,
-      fontFamily: "Inter_400Regular",
+      fontFamily: "SpaceGrotesk_400Regular",
       color: colors.mutedForeground,
       lineHeight: 24,
     },
@@ -74,7 +74,7 @@ export default function HomeScreen() {
     ctaText: {
       fontSize: 17,
       fontWeight: "700" as const,
-      fontFamily: "Inter_700Bold",
+      fontFamily: "SpaceGrotesk_700Bold",
       color: colors.primaryForeground,
     },
     sectionHeader: {
@@ -83,7 +83,7 @@ export default function HomeScreen() {
       letterSpacing: 0.8,
       textTransform: "uppercase" as const,
       color: colors.mutedForeground,
-      fontFamily: "Inter_600SemiBold",
+      fontFamily: "SpaceGrotesk_600SemiBold",
       marginBottom: 4,
     },
     meetingCard: {
@@ -102,18 +102,18 @@ export default function HomeScreen() {
     meetingSpotName: {
       fontSize: 16,
       fontWeight: "600" as const,
-      fontFamily: "Inter_600SemiBold",
+      fontFamily: "SpaceGrotesk_600SemiBold",
       color: colors.foreground,
       flex: 1,
     },
     meetingDate: {
       fontSize: 12,
-      fontFamily: "Inter_400Regular",
+      fontFamily: "SpaceGrotesk_400Regular",
       color: colors.mutedForeground,
     },
     meetingPeople: {
       fontSize: 13,
-      fontFamily: "Inter_400Regular",
+      fontFamily: "SpaceGrotesk_400Regular",
       color: colors.mutedForeground,
     },
     statsRow: {
@@ -130,12 +130,12 @@ export default function HomeScreen() {
     statNumber: {
       fontSize: 22,
       fontWeight: "700" as const,
-      fontFamily: "Inter_700Bold",
+      fontFamily: "SpaceGrotesk_700Bold",
       color: colors.foreground,
     },
     statLabel: {
       fontSize: 12,
-      fontFamily: "Inter_400Regular",
+      fontFamily: "SpaceGrotesk_400Regular",
       color: colors.mutedForeground,
     },
     emptyCard: {
@@ -147,7 +147,7 @@ export default function HomeScreen() {
     },
     emptyText: {
       fontSize: 14,
-      fontFamily: "Inter_400Regular",
+      fontFamily: "SpaceGrotesk_400Regular",
       color: colors.mutedForeground,
       textAlign: "center",
     },

@@ -66,13 +66,13 @@ export function PersonCard({ person, index, onChange, onRemove, canRemove }: Pro
       color: "#FFF",
       fontSize: 13,
       fontWeight: "700" as const,
-      fontFamily: "Inter_700Bold",
+      fontFamily: "SpaceGrotesk_700Bold",
     },
     nameInput: {
       flex: 1,
       fontSize: 16,
       fontWeight: "600" as const,
-      fontFamily: "Inter_600SemiBold",
+      fontFamily: "SpaceGrotesk_600SemiBold",
       color: colors.foreground,
       paddingVertical: 0,
     },
@@ -92,7 +92,7 @@ export function PersonCard({ person, index, onChange, onRemove, canRemove }: Pro
     addDestText: {
       fontSize: 13,
       color: colors.primary,
-      fontFamily: "Inter_500Medium",
+      fontFamily: "SpaceGrotesk_500Medium",
     },
   });
 

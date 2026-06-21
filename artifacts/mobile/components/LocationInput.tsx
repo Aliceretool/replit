@@ -72,7 +72,7 @@ export function LocationInput({ label, value, placeholder, onSelect, onClear, ic
       letterSpacing: 0.8,
       textTransform: "uppercase" as const,
       color: colors.mutedForeground,
-      fontFamily: "Inter_600SemiBold",
+      fontFamily: "SpaceGrotesk_600SemiBold",
     },
     inputRow: {
       flexDirection: "row" as const,
@@ -89,19 +89,19 @@ export function LocationInput({ label, value, placeholder, onSelect, onClear, ic
       flex: 1,
       fontSize: 15,
       color: colors.foreground,
-      fontFamily: "Inter_400Regular",
+      fontFamily: "SpaceGrotesk_400Regular",
     },
     placeholderText: {
       flex: 1,
       fontSize: 15,
       color: colors.mutedForeground,
-      fontFamily: "Inter_400Regular",
+      fontFamily: "SpaceGrotesk_400Regular",
     },
     valueText: {
       flex: 1,
       fontSize: 14,
       color: colors.foreground,
-      fontFamily: "Inter_500Medium",
+      fontFamily: "SpaceGrotesk_500Medium",
     },
     dropdown: {
       backgroundColor: colors.card,
@@ -121,7 +121,7 @@ export function LocationInput({ label, value, placeholder, onSelect, onClear, ic
     suggestionText: {
       fontSize: 14,
       color: colors.foreground,
-      fontFamily: "Inter_400Regular",
+      fontFamily: "SpaceGrotesk_400Regular",
       lineHeight: 20,
     },
   });

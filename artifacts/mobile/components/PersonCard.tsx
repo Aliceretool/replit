@@ -12,7 +12,7 @@ import { type GeoResult } from "@/services/geocoding";
 import { type PersonLocation } from "@/services/routing";
 import { useColors } from "@/hooks/useColors";
 
-const PERSON_COLORS = ["#F97316", "#8B5CF6", "#06B6D4", "#EC4899", "#22C55E", "#EAB308", "#EF4444", "#14B8A6"];
+const PERSON_COLORS = ["#a855f7", "#8B5CF6", "#06B6D4", "#EC4899", "#22C55E", "#EAB308", "#EF4444", "#14B8A6"];
 
 interface Props {
   person: PersonLocation;

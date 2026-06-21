@@ -37,7 +37,7 @@ export function MeetingMap({ midpoint, people, results, onSelectResult }: Props)
       <ShapeSource id="midpoint-src" shape={midpointGeoJson}>
         <CircleLayer
           id="midpoint-circle-outer"
-          style={{ circleRadius: 22, circleColor: "rgba(249,115,22,0.15)", circleStrokeWidth: 1.5, circleStrokeColor: "rgba(249,115,22,0.5)" }}
+          style={{ circleRadius: 22, circleColor: "rgba(253,220,254,0.35)", circleStrokeWidth: 1.5, circleStrokeColor: "rgba(168,85,247,0.5)" }}
         />
         <CircleLayer
           id="midpoint-circle-inner"
